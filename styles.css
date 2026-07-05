@@ -323,3 +323,158 @@ body {
     border-radius:50%;
 
 }
+
+/*contact footer */
+
+.contact{
+
+    width:90%;
+
+    margin:100px auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:80px;
+
+}
+
+
+.contact-text{
+
+    flex:1;
+
+}
+
+
+.contact-text h2{
+
+    font-size:60px;
+
+}
+
+
+.contact-form{
+
+    flex:1;
+
+}
+
+
+.contact-form form{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+.contact-form label{
+
+    margin:10px 0;
+
+    font-weight:600;
+
+}
+
+
+.contact-form input,
+.contact-form textarea{
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    margin-bottom:10px;
+
+    font-size:16px;
+
+}
+
+
+.contact-form textarea{
+
+    resize:none;
+
+}
+
+
+.contact-form button{
+
+    margin-top:20px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+    text-align:center;
+
+    padding:70px 20px;
+
+    background:#f7f7f7;
+
+}
+
+
+footer h2{
+
+    font-size:42px;
+
+    color:#4F46E5;
+
+    margin-bottom:20px;
+
+}
+
+
+footer p{
+
+    width:60%;
+
+    margin:20px auto;
+
+    color:gray;
+
+    line-height:1.8;
+
+}
+
+
+.footer-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin-top:30px;
+
+}
+
+
+.footer-links a{
+
+    text-decoration:none;
+
+    color:gray;
+
+    transition:.3s;
+
+}
+
+
+.footer-links a:hover{
+
+    color:#4F46E5;
+
+}
